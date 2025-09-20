@@ -57,8 +57,7 @@ if st.button("Submit"):
 
     # Display results
     st.subheader("Result")
-    st.write(f"✅ Yes Count: {yes_count}")
-    st.write(f"❌ No Count: {no_count}")
+    
 
     if no_count < 3:
         st.success("No need to follow up.")
